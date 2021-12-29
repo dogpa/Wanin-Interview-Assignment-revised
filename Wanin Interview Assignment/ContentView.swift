@@ -31,7 +31,7 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 .font(.system(size: 35))
                 .padding()
-                .frame(width: 400, height: 100, alignment: .leading)
+                .frame(width: 375, height: 100, alignment: .leading)
 
             VStack {
                 //帳號輸入

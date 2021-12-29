@@ -24,7 +24,7 @@ struct SignUpView: View {
             .fontWeight(.bold)
             .font(.system(size: 35))
             .padding()
-            .frame(width: 400, height: 100, alignment: .leading)
+            .frame(width: 375, height: 100, alignment: .leading)
         //註冊帳號email
         TextField("Input Email Address", text: $emailSignUp)
             .autocapitalization(.none)

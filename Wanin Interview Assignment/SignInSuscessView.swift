@@ -25,7 +25,7 @@ struct SignInSuscessView: View {
                 .multilineTextAlignment(.leading)
                 .lineLimit(2)
                 .padding()
-                .frame(width: 400, height: 70, alignment: .leading)
+                .frame(width: 375, height: 70, alignment: .leading)
             
             //使用者email
             Text("\(sucessLabel ?? "貴賓")")
@@ -34,7 +34,7 @@ struct SignInSuscessView: View {
                 .multilineTextAlignment(.leading)
                 .lineLimit(2)
                 .padding()
-                .frame(width: 400, height: 70, alignment: .leading)
+                .frame(width: 375, height: 70, alignment: .leading)
             
             //MARK:改密碼按鈕
             Button(action: {
