@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D11DD60277B326600E660D3 /* Wanin_Interview_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D11DD5F277B326600E660D3 /* Wanin_Interview_AssignmentApp.swift */; };
+		2D11DD62277B326600E660D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D11DD61277B326600E660D3 /* ContentView.swift */; };
+		2D11DD64277B326800E660D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D11DD63277B326800E660D3 /* Assets.xcassets */; };
+		2D11DD67277B326800E660D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D11DD66277B326800E660D3 /* Preview Assets.xcassets */; };
+		2D11DD6F277B329D00E660D3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D11DD6E277B329D00E660D3 /* SignUpView.swift */; };
+		2D11DD71277B32BE00E660D3 /* SignInSuscessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D11DD70277B32BE00E660D3 /* SignInSuscessView.swift */; };
+		2D11DD73277B32D200E660D3 /* PasswordChangeVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D11DD72277B32D200E660D3 /* PasswordChangeVIew.swift */; };
+		2D325527277B48BD00417E4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D325526277B48BD00417E4D /* GoogleService-Info.plist */; };
+		2D32552A277B496B00417E4D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2D325529277B496B00417E4D /* FirebaseAuth */; };
+		2D32552C277B496B00417E4D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D32552B277B496B00417E4D /* FirebaseAnalytics */; };
+		2D32552E277B8E0F00417E4D /* Password Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D32552D277B8E0E00417E4D /* Password Check.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D11DD5C277B326600E660D3 /* Wanin Interview Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wanin Interview Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D11DD5F277B326600E660D3 /* Wanin_Interview_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wanin_Interview_AssignmentApp.swift; sourceTree = "<group>"; };
+		2D11DD61277B326600E660D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D11DD63277B326800E660D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D11DD66277B326800E660D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D11DD68277B326800E660D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D11DD6E277B329D00E660D3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2D11DD70277B32BE00E660D3 /* SignInSuscessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSuscessView.swift; sourceTree = "<group>"; };
+		2D11DD72277B32D200E660D3 /* PasswordChangeVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeVIew.swift; sourceTree = "<group>"; };
+		2D325526277B48BD00417E4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D32552D277B8E0E00417E4D /* Password Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Password Check.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D11DD59277B326600E660D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D32552C277B496B00417E4D /* FirebaseAnalytics in Frameworks */,
+				2D32552A277B496B00417E4D /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D11DD53277B326600E660D3 = {
+			isa = PBXGroup;
+			children = (
+				2D11DD5E277B326600E660D3 /* Wanin Interview Assignment */,
+				2D11DD5D277B326600E660D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D11DD5D277B326600E660D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D11DD5C277B326600E660D3 /* Wanin Interview Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D11DD5E277B326600E660D3 /* Wanin Interview Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				2D11DD5F277B326600E660D3 /* Wanin_Interview_AssignmentApp.swift */,
+				2D11DD61277B326600E660D3 /* ContentView.swift */,
+				2D11DD70277B32BE00E660D3 /* SignInSuscessView.swift */,
+				2D11DD6E277B329D00E660D3 /* SignUpView.swift */,
+				2D11DD72277B32D200E660D3 /* PasswordChangeVIew.swift */,
+				2D32552D277B8E0E00417E4D /* Password Check.swift */,
+				2D11DD63277B326800E660D3 /* Assets.xcassets */,
+				2D11DD68277B326800E660D3 /* Info.plist */,
+				2D325526277B48BD00417E4D /* GoogleService-Info.plist */,
+				2D11DD65277B326800E660D3 /* Preview Content */,
+			);
+			path = "Wanin Interview Assignment";
+			sourceTree = "<group>";
+		};
+		2D11DD65277B326800E660D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D11DD66277B326800E660D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D11DD5B277B326600E660D3 /* Wanin Interview Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D11DD6B277B326800E660D3 /* Build configuration list for PBXNativeTarget "Wanin Interview Assignment" */;
+			buildPhases = (
+				2D11DD58277B326600E660D3 /* Sources */,
+				2D11DD59277B326600E660D3 /* Frameworks */,
+				2D11DD5A277B326600E660D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wanin Interview Assignment";
+			packageProductDependencies = (
+				2D325529277B496B00417E4D /* FirebaseAuth */,
+				2D32552B277B496B00417E4D /* FirebaseAnalytics */,
+			);
+			productName = "Wanin Interview Assignment";
+			productReference = 2D11DD5C277B326600E660D3 /* Wanin Interview Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D11DD54277B326600E660D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2D11DD5B277B326600E660D3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D11DD57277B326600E660D3 /* Build configuration list for PBXProject "Wanin Interview Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D11DD53277B326600E660D3;
+			packageReferences = (
+				2D325528277B496B00417E4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 2D11DD5D277B326600E660D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D11DD5B277B326600E660D3 /* Wanin Interview Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D11DD5A277B326600E660D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D11DD67277B326800E660D3 /* Preview Assets.xcassets in Resources */,
+				2D11DD64277B326800E660D3 /* Assets.xcassets in Resources */,
+				2D325527277B48BD00417E4D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D11DD58277B326600E660D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D11DD62277B326600E660D3 /* ContentView.swift in Sources */,
+				2D11DD6F277B329D00E660D3 /* SignUpView.swift in Sources */,
+				2D11DD71277B32BE00E660D3 /* SignInSuscessView.swift in Sources */,
+				2D11DD73277B32D200E660D3 /* PasswordChangeVIew.swift in Sources */,
+				2D32552E277B8E0F00417E4D /* Password Check.swift in Sources */,
+				2D11DD60277B326600E660D3 /* Wanin_Interview_AssignmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D11DD69277B326800E660D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D11DD6A277B326800E660D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D11DD6C277B326800E660D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Wanin Interview Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = D758S53U98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Wanin Interview Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dogpa.Wanin-Interview-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D11DD6D277B326800E660D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Wanin Interview Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = D758S53U98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Wanin Interview Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dogpa.Wanin-Interview-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D11DD57277B326600E660D3 /* Build configuration list for PBXProject "Wanin Interview Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D11DD69277B326800E660D3 /* Debug */,
+				2D11DD6A277B326800E660D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D11DD6B277B326800E660D3 /* Build configuration list for PBXNativeTarget "Wanin Interview Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D11DD6C277B326800E660D3 /* Debug */,
+				2D11DD6D277B326800E660D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D325528277B496B00417E4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D325529277B496B00417E4D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D325528277B496B00417E4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2D32552B277B496B00417E4D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D325528277B496B00417E4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2D11DD54277B326600E660D3 /* Project object */;
+}
