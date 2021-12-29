@@ -16,7 +16,7 @@ struct PasswordChangeVIew: View {
     @State private var title = ""                           //提示警告title
     @State private var message = ""                         //提示警告message
     @State private var changePasswordIncorrect = false      //檢查密碼正確性
-    @State private var transformContentView = false         //檢查密碼正確性
+    @State private var transformContentView = false         //是否跳到第一頁
     
     var body: some View {
         //Change Password
@@ -60,9 +60,13 @@ struct PasswordChangeVIew: View {
                             alertInfo(switchBool: true, titleInfo: "修改密碼錯誤", messageInfo: "請再次檢查")
                             return
                         }
-                        alertInfo(switchBool: true, titleInfo: "", messageInfo: "")
+                        transformContentView = true
+                        alertInfo(switchBool: false, titleInfo: "", messageInfo: "")
                         firstChangePassword = ""
                         confirmChangePassword = ""
+                        
+                        try? Auth.auth().signOut()
+                        
 
                     }
                 }
@@ -76,6 +80,8 @@ struct PasswordChangeVIew: View {
                 .font(.system(size: 30))
                 .cornerRadius(10)
         })
+
+        .fullScreenCover(isPresented: $transformContentView, content: ContentView.init)
         .alert(isPresented: $changePasswordIncorrect, content: {
             if title != "" {
                 print("title\(self.title) message\(self.message)")
@@ -85,15 +91,16 @@ struct PasswordChangeVIew: View {
             }else {
                 return Alert(title: Text("密碼變更完成"), message: Text("請記得自己的新密碼謝謝"), dismissButton: .default(Text("了解"), action: {
 
-                    presentationMode.wrappedValue.dismiss()
+                    //presentationMode.wrappedValue.dismiss()
                     
                     //UIApplication.shared.keyWindow?.rootViewController?.dismiss(animated: true, completion: nil)這個會有紫色警告
-                   
-                    
-                }))
-            }
 
+                }
+                ))
+            }
+            
         })
+
         
         Spacer()
     }
